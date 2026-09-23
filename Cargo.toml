@@ -1,0 +1,13 @@
+[package]
+name = "whatsapps"
+version = "0.2.0"
+description = "Cliente Linux de WhatsApp Web: lanza una instancia dedicada de Chromium/Edge en modo app (llamadas incluidas)"
+edition = "2021"
+
+[[bin]]
+name = "whatsapps"
+path = "src/main.rs"
+
+[dependencies]
+# Icono de bandeja en la barra superior (protocolo StatusNotifier/AppIndicator).
+ksni = "0.2"

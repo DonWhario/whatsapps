@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#25D366"/>
+      <stop offset="1" stop-color="#128C7E"/>
+    </linearGradient>
+  </defs>
+  <!-- fondo redondeado -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <!-- burbuja de chat blanca con cola -->
+  <path d="M256 108
+           c-88 0-160 62-160 139
+           0 44 24 83 62 108
+           l-14 55
+           58-30
+           c17 5 35 7 54 7
+           88 0 160-62 160-140
+           s-72-139-160-139z"
+        fill="#ffffff"/>
+  <!-- auricular de teléfono, verde -->
+  <path d="M214 210
+           c-6 6-8 15-4 23
+           10 22 28 40 50 50
+           8 4 17 2 23-4
+           l14-14
+           c5-5 5-13 1-19
+           l-13-16
+           c-4-5-11-6-16-3
+           l-11 6
+           c-9-6-17-14-23-23
+           l6-11
+           c3-5 2-12-3-16
+           l-16-13
+           c-6-4-14-4-19 1
+           z"
+        fill="#128C7E"/>
+</svg>
